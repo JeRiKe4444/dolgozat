@@ -1,0 +1,77 @@
+html {
+    background-image: url(hatterkepek/hatter1.jpg);
+    max-width: 800pt;
+    font-size: 10pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+    margin: 10pt 10pt 10pt 10pt;
+    background-repeat: inherit;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+
+    padding: 10px;
+    font-size: 20pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 10pt;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 400px;
+    max-height: 200px;
+    border: 1px solid rgb(255, 0, 0);
+    padding: 2pt;
+    float: right;
+    border-radius: 20px;
+}
+
+body {
+    border: 1px solid rgb(255, 0, 0);
+}
+
+nav ul {
+    text-decoration: none;
+    display: grid;
+    grid-column: 50px 50px 50px;
+    border: 1px solid rgb(255, 0, 0);
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    list-style-type: none;
+    gap: 20px;
+
+}
+
+#CIKK {
+    display: grid;
+    grid-column: 50px 50px 50px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid rgb(255, 0, 0);
+    padding: 5px 5px 5px 5px;
+    color: green;
+}
+
+ul {
+    padding: 10px 10px 10px;
+}
+
+.reszletes {
+    padding: 10px 10px;
+}
+
+.hozzavalok {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+a:hover {
+    color: green;
+    background-color: darkgreen;
+}
